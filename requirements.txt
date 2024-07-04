@@ -1,0 +1,10 @@
+pyodbc
+plotly.express
+pandas
+datetime
+random
+serial
+pyserial
+plotly
+pandas
+
