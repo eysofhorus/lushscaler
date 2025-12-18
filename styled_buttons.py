@@ -9,7 +9,7 @@ def generate_styled_button_html(button_text, button_id, color_code):
     with doc.head:
         style("""
             .styled-button {
-                padding: 10px 20px;
+                padding: 15px 25px;
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;

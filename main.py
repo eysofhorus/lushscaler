@@ -1,3 +1,4 @@
+
 import streamlit as st
 from login_page import show_login_page
 from configuration_page import configuration_page
@@ -50,3 +51,4 @@ if __name__ == '__main__':
             st.session_state.started = False
             st.session_state.measurements = 0
             st.session_state.staff_id = None
+
