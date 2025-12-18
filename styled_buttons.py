@@ -15,9 +15,12 @@ def generate_styled_button_html(button_text, button_id, color_code):
                 cursor: pointer;
                 font-size: 16px;
                 color: white;
+                background-color: {color_code}
             }
             .styled-button:hover {
                 opacity: 0.9;
+                background-color: {color_code};
+                
             }
         """)
 

@@ -7,6 +7,7 @@ from setup import setup_page
 from report_page import report_page
 from dashboard_page import dashboard_page
 from test2 import test2_page  
+import os
 
 # Set Streamlit page configuration
 st.set_page_config(page_title="LUSH SCALER")
